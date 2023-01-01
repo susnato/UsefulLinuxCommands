@@ -1,0 +1,8 @@
+nano
+	Alt-U = Undo
+	Alt-E = Redo
+	Ctrl-G = Help
+	Ctrl-O = Write to
+	Ctrl-R = Read to
+
+Learn Vim

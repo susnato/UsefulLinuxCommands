@@ -1,0 +1,7 @@
+sudo = super user do (used to access restricted files)
+apt = (package manager) to install and update packages
+apt update = updates the cache of the available packages to our OS (kind of git fetch)
+apt upgrade = actually upgrades the packages
+apt search = search for applications(package name will be in green)
+apt remove = remove the package/application
+

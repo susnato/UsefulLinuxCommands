@@ -1,0 +1,3 @@
+ifcongig = just like ipconfig in Windows
+ip = newer version of ifconfig
+
