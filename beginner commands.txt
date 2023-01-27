@@ -30,7 +30,7 @@ top = like htop(updates!) but slightly harder representation
 htop = to check system info(cpu%, ram%)
 nvtop = htop but for GPUs
 
-
+chmod
 
 
 
