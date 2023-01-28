@@ -5,4 +5,10 @@ nano
 	Ctrl-O = Write to
 	Ctrl-R = Read to
 
-Learn Vim
+Vim
+	:q - quit
+	:w - write
+	:q! - dont made the recent changes and get out of editor
+	:wq - write and leave the editor
+	/name  - to search any word then press 'n' for next word and 'N' for previous word
+	12G - to go to line No 12
