@@ -1,0 +1,23 @@
+GREP - 
+grep -[option] keyword filename1 filename2 [grep susnato file1.txt file2.txt]
+	-i = lower_case/upper_case
+	-v = except that keyword
+	-c = no of times that keyword appeared in the files
+	-w = exact match
+	-n = show the line number
+	-h = suppress filename(while searching in multiple files)
+	-e = to search multiple keywords(grep -e word1 -e word2 file1.txt file2.txt)
+	-l = only show the filenames in which the keywords are present 
+	-f = when searching for multiple keywords make a file and use -f filename.txt to search all words
+	-R = to search recursively in a directory (grep -R susnato ./dir)
+	^keyword = to search a keyword which starts with keyword
+	keyword$ = to search a keyword which ends with keyword
+	
+EGREP - to search multiple files we use grep with -e "kw1" -e "kw2" and egrep does the same
+egrep -[option] "keyword1|keyword2" f1.txt f2.txt
+
+special cases - 
+	-q = if you want to search but don't want to show the output (later can be viewed as echo $?)
+	-s = in the above command any error will be shows(such as no directory named as dirA) to suppress that too use this with q so it will be qs
+	-ls | grep file = to search between files and folders
+
