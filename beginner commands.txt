@@ -8,6 +8,8 @@ df
 tree
 cd
 bc
+tr
+cut
 touch
 cp = copy file
 cp -r = copy directory
