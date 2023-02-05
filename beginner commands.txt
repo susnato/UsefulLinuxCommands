@@ -35,5 +35,7 @@ nvtop = htop but for GPUs
 
 chmod
 
+make
+
 
 
