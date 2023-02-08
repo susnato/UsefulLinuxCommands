@@ -1,0 +1,14 @@
+Command : find [path] [option] :: find /home/susnato/ -name filename.txt
+	options::
+		-name : to search using EXACT name.
+		-iname : to search using name but ignoring Case.
+		-type : to search by type [d - directory, f - file, l - links, s - sockets, b - block devices]
+		-user : to search for given user only (find . -user root)
+		-inum : to search using inode numbers (inode = each file has a specific inode number so cp will create a file with different inode(identification) number but HARD links will create(link-to) files with same inode number)
+		-links : to find files with no of links.
+		-perm : to search a file based on their permission.(find . -perm 777 :: which file has all permissions for all users)
+		-newer : to search files which were created after the file.txt(find . -newer file.txt)
+		-empty : HOW TO SEARCH EMPTY FILES IN A DIRECTORY(find . -empty)
+		-exec : TO EXECUTE ANY ACTION WITH FIND COMMAND(LIKE DELETING ALL EMPTY FILES! :: find . -type f -empty -exec rm {} \;)
+		-to search files in size range : find . -size +1M -50M :: to search files between 1MB and 50MB, "find . -size +1M -size -50M -exec ls -lh {} \;"
+		-mtime : to search files based on how old they are.(find . -mtime 15 :: to search files 15 days older)
