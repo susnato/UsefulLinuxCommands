@@ -10,6 +10,7 @@ grep -[option] keyword filename1 filename2 [grep susnato file1.txt file2.txt]
 	-l = only show the filenames in which the keywords are present 
 	-f = when searching for multiple keywords make a file and use -f filename.txt to search all words
 	-R = to search recursively in a directory (grep -R susnato ./dir)
+	-o = Print only the matched (non-empty) parts of a matching line, with each such part on  a  separate output line.(useful for vowel-consonents)
 	^keyword = to search a keyword which starts with keyword
 	keyword$ = to search a keyword which ends with keyword
 	
