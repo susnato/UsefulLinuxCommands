@@ -1,0 +1,19 @@
+-f = checking if file exists
+-d = checking if directoy exists
+-s = blank file(empty file)
+-r = checking if I have read access ( like this -x -w )
+rev = to do the reverse
+
+
+$1, $2, $3 = args
+$# = number of args passed
+$? = exit status of last execution
+$* = all args
+shift = left shift args
+
+set -- = will set the default values to this. ex. set -- `ls -l $file1` ==> this will set the args to file attributes!
+
+
+
+# to count len string
+${#string} 
